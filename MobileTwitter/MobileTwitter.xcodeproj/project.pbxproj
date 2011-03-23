@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1939B113399B400037080C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1939B013399B400037080C /* UIKit.framework */; };
+		7B1939B313399B400037080C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1939B213399B400037080C /* Foundation.framework */; };
+		7B1939B513399B400037080C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1939B413399B400037080C /* CoreGraphics.framework */; };
+		7B1939BB13399B400037080C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B1939B913399B400037080C /* InfoPlist.strings */; };
+		7B1939BE13399B400037080C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939BD13399B400037080C /* main.m */; };
+		7B1939C113399B400037080C /* MobileTwitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */; };
+		7B1939C413399B400037080C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1939C213399B400037080C /* MainWindow.xib */; };
+		7B1939D413399D6F0037080C /* mobiletwitter.js in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939D313399D6F0037080C /* mobiletwitter.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B1939AC13399B400037080C /* MobileTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1939B013399B400037080C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B1939B213399B400037080C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B1939B413399B400037080C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B1939B813399B400037080C /* MobileTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileTwitter-Info.plist"; sourceTree = "<group>"; };
+		7B1939BA13399B400037080C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B1939BC13399B400037080C /* MobileTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		7B1939BD13399B400037080C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B1939BF13399B400037080C /* MobileTwitterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileTwitterAppDelegate.h; sourceTree = "<group>"; };
+		7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileTwitterAppDelegate.m; sourceTree = "<group>"; };
+		7B1939C313399B400037080C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7B1939D313399D6F0037080C /* mobiletwitter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mobiletwitter.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B1939A913399B400037080C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1939B113399B400037080C /* UIKit.framework in Frameworks */,
+				7B1939B313399B400037080C /* Foundation.framework in Frameworks */,
+				7B1939B513399B400037080C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1939A113399B400037080C = {
+			isa = PBXGroup;
+			children = (
+				7B1939B613399B400037080C /* MobileTwitter */,
+				7B1939AF13399B400037080C /* Frameworks */,
+				7B1939AD13399B400037080C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B1939AD13399B400037080C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B1939AC13399B400037080C /* MobileTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B1939AF13399B400037080C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B1939B013399B400037080C /* UIKit.framework */,
+				7B1939B213399B400037080C /* Foundation.framework */,
+				7B1939B413399B400037080C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B1939B613399B400037080C /* MobileTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				7B1939BF13399B400037080C /* MobileTwitterAppDelegate.h */,
+				7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */,
+				7B1939C213399B400037080C /* MainWindow.xib */,
+				7B1939B713399B400037080C /* Supporting Files */,
+			);
+			path = MobileTwitter;
+			sourceTree = "<group>";
+		};
+		7B1939B713399B400037080C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1939B813399B400037080C /* MobileTwitter-Info.plist */,
+				7B1939B913399B400037080C /* InfoPlist.strings */,
+				7B1939BC13399B400037080C /* MobileTwitter-Prefix.pch */,
+				7B1939BD13399B400037080C /* main.m */,
+				7B1939D313399D6F0037080C /* mobiletwitter.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B1939AB13399B400037080C /* MobileTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1939C713399B400037080C /* Build configuration list for PBXNativeTarget "MobileTwitter" */;
+			buildPhases = (
+				7B1939A813399B400037080C /* Sources */,
+				7B1939A913399B400037080C /* Frameworks */,
+				7B1939AA13399B400037080C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileTwitter;
+			productName = MobileTwitter;
+			productReference = 7B1939AC13399B400037080C /* MobileTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1939A313399B400037080C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7B1939A613399B400037080C /* Build configuration list for PBXProject "MobileTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B1939A113399B400037080C;
+			productRefGroup = 7B1939AD13399B400037080C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B1939AB13399B400037080C /* MobileTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B1939AA13399B400037080C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1939BB13399B400037080C /* InfoPlist.strings in Resources */,
+				7B1939C413399B400037080C /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1939A813399B400037080C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1939BE13399B400037080C /* main.m in Sources */,
+				7B1939C113399B400037080C /* MobileTwitterAppDelegate.m in Sources */,
+				7B1939D413399D6F0037080C /* mobiletwitter.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B1939B913399B400037080C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1939BA13399B400037080C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B1939C213399B400037080C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1939C313399B400037080C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B1939C513399B400037080C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B1939C613399B400037080C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7B1939C813399B400037080C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTwitter/MobileTwitter-Prefix.pch";
+				INFOPLIST_FILE = "MobileTwitter/MobileTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B1939C913399B400037080C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTwitter/MobileTwitter-Prefix.pch";
+				INFOPLIST_FILE = "MobileTwitter/MobileTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1939A613399B400037080C /* Build configuration list for PBXProject "MobileTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1939C513399B400037080C /* Debug */,
+				7B1939C613399B400037080C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1939C713399B400037080C /* Build configuration list for PBXNativeTarget "MobileTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1939C813399B400037080C /* Debug */,
+				7B1939C913399B400037080C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1939A313399B400037080C /* Project object */;
+}
