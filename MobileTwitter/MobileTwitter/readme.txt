@@ -1,0 +1,1 @@
+When creating javascript files, you'll get a compile warning in xcode.  To get rid of it, remove the javascript file from the 'compile sources' build phase, and add it to the 'copy files' build phase.

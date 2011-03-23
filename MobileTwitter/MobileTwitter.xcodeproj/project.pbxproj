@@ -14,7 +14,9 @@
 		7B1939BE13399B400037080C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939BD13399B400037080C /* main.m */; };
 		7B1939C113399B400037080C /* MobileTwitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */; };
 		7B1939C413399B400037080C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1939C213399B400037080C /* MainWindow.xib */; };
-		7B1939D413399D6F0037080C /* mobiletwitter.js in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939D313399D6F0037080C /* mobiletwitter.js */; };
+		7B1939DD1339B29B0037080C /* TweetsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1939DC1339B29B0037080C /* TweetsListViewController.m */; };
+		7B1939DF1339B47A0037080C /* mobiletwitter.js in Resources */ = {isa = PBXBuildFile; fileRef = 7B1939D313399D6F0037080C /* mobiletwitter.js */; };
+		7B1939E11339B52D0037080C /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B1939E01339B52D0037080C /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileTwitterAppDelegate.m; sourceTree = "<group>"; };
 		7B1939C313399B400037080C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		7B1939D313399D6F0037080C /* mobiletwitter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mobiletwitter.js; sourceTree = "<group>"; };
+		7B1939DB1339B29B0037080C /* TweetsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsListViewController.h; sourceTree = "<group>"; };
+		7B1939DC1339B29B0037080C /* TweetsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsListViewController.m; sourceTree = "<group>"; };
+		7B1939E01339B52D0037080C /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +81,12 @@
 		7B1939B613399B400037080C /* MobileTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				7B1939B713399B400037080C /* Supporting Files */,
 				7B1939BF13399B400037080C /* MobileTwitterAppDelegate.h */,
 				7B1939C013399B400037080C /* MobileTwitterAppDelegate.m */,
+				7B1939DB1339B29B0037080C /* TweetsListViewController.h */,
+				7B1939DC1339B29B0037080C /* TweetsListViewController.m */,
 				7B1939C213399B400037080C /* MainWindow.xib */,
-				7B1939B713399B400037080C /* Supporting Files */,
 			);
 			path = MobileTwitter;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 				7B1939BC13399B400037080C /* MobileTwitter-Prefix.pch */,
 				7B1939BD13399B400037080C /* main.m */,
 				7B1939D313399D6F0037080C /* mobiletwitter.js */,
+				7B1939E01339B52D0037080C /* readme.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +153,8 @@
 			files = (
 				7B1939BB13399B400037080C /* InfoPlist.strings in Resources */,
 				7B1939C413399B400037080C /* MainWindow.xib in Resources */,
+				7B1939DF1339B47A0037080C /* mobiletwitter.js in Resources */,
+				7B1939E11339B52D0037080C /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +167,7 @@
 			files = (
 				7B1939BE13399B400037080C /* main.m in Sources */,
 				7B1939C113399B400037080C /* MobileTwitterAppDelegate.m in Sources */,
-				7B1939D413399D6F0037080C /* mobiletwitter.js in Sources */,
+				7B1939DD1339B29B0037080C /* TweetsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
